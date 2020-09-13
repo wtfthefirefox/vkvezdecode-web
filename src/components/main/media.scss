@@ -1,0 +1,35 @@
+@media (min-width: 1024px) {
+  .donations {
+    &__title {
+      font-size: 25px;
+    }
+
+    &__description {
+      max-width: none;
+      font-size: 20px;
+    }
+
+    &__link {
+      height: 50px;
+      padding: 15px 10px 15px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (min-width: 1366px) {
+  .donations {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__description {
+      font-size: 25px;
+    }
+
+    &__link {
+      padding: 15px 10px 15px;
+      font-size: 26px;
+    }
+  }
+}

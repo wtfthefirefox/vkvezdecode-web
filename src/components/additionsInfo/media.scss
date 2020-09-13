@@ -1,0 +1,63 @@
+@media (min-width: 1024px) {
+  .additionalInfo {
+    &__title {
+      font-size: 25px;
+    }
+
+    &__link {
+      &-create {
+        height: 50px;
+        font-size: 25px;
+      }
+    }
+
+    &__list {
+      max-width: 400px;
+    }
+
+    &__item {
+      width: 400px;
+
+      &-title {
+        font-size: 16px;
+      }
+
+      &-input {
+        min-height: 50px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1366px) {
+  .additionalInfo {
+    &__title {
+      font-size: 30px;
+    }
+
+    &__link {
+      &-create {
+        height: 50px;
+        font-size: 25px;
+      }
+    }
+
+    &__list {
+      max-width: 400px;
+    }
+    
+    &__item {
+      width: 400px;
+
+      &-title {
+        font-size: 18px;
+      }
+
+      &-input {
+        min-height: 50px;
+        font-size: 20px;
+      }
+    }
+  }
+}

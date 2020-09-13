@@ -1,0 +1,65 @@
+@media (min-width: 1024px) {
+  .typeDonations { 
+    &__title {
+      font-size: 25px;
+    }
+
+    &__list {
+      max-width: 400px;
+    }
+  
+    &__item {
+      width: 400px;
+
+      &-content {
+        &::before {
+          top: 22px;
+        }
+
+        &::after {
+          top: 26px;
+        }
+      }
+
+      &-title {
+        font-size: 20px;
+        margin-bottom: 5px;
+      }
+
+      &-description {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+@media (min-width: 1366px) {
+  .typeDonations { 
+    &__title {
+      font-size: 30px;
+    }
+
+    &__list {
+      max-width: 450px;
+    }
+
+    &__item {
+      width: 450px;
+
+      &-content {
+        &::after {
+          top: 28px;
+        }
+      }
+
+      &-title {
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+
+      &-description {
+        font-size: 20px;
+      }
+    }
+  }
+}

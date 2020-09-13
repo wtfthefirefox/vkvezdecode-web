@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "TT Commons";
+  src: url("./assets/fonts/TTCommonsRegular.otf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/SFNSDisplay-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/SFNSText-Medium.ttf");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SF Pro Text";
+  src: url("./assets/fonts/SFProDisplay-Semibold.eot"),
+       url("./assets/fonts/SFProDisplay-Semibold.ttf"),
+       url("./assets/fonts/SFProDisplay-Semibold.woff"),
+       url("./assets/fonts/SFProDisplay-Semibold.woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}

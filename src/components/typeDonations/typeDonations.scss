@@ -1,0 +1,97 @@
+.typeDonations {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 56.5px;
+
+  &__title {
+    font-family: "TT Commons";
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+  }
+
+  &__link-back {
+    position: absolute;
+    top: 60.1px;
+    left: 3.36%;
+    width: 10.8px;
+    height: 19.8px;
+    background-image: url('../../assets/svg/arrow-back.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  &__list {
+    margin-top: 257.5px;
+    max-width: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  &__item {
+    box-sizing: border-box;
+    width: 351px;
+    height: 62px;
+
+    &-content {
+      position: relative;
+      padding-top: 12px;
+      padding-left: 52px;
+
+      &::before {
+        content: "";
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        left: 14px;
+        top: 14px;
+        width: 24px;
+        height: 24px;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        right: 18.75px;
+        top: 22.75px;
+        width: 9.5px;
+        height: 16.5px;
+        background: url('../../assets/svg/arrow-next.svg') center no-repeat;
+      }
+    }
+
+    &-title {
+      font-family: "SF Pro Text";
+      font-style: normal;
+      font-weight: 600; 
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.32px;
+      color: #000000;
+      margin-bottom: 2px;
+    }
+
+    &-description {
+      font-family: "SF Pro Text";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: -0.078px;
+      color: #6D7885;
+    }
+  }
+
+  &__target::before {
+    background-image: url(../../assets/svg/target.svg);
+  }
+
+  &__date::before {
+    background-image: url(../../assets/svg/date.svg);
+  }
+}
